@@ -10,7 +10,7 @@ import { FaUserFriends } from "react-icons/fa";
 
 
 const Navbar = () => {
-  const {nav,setNav} = useState(false)
+  const [nav,setNav] = useState(false)
 
   return (
     <div className='max-w-[1640px] flex mx-auto justify-between items-center p-4 '>
@@ -19,12 +19,12 @@ const Navbar = () => {
             <AiOutlineMenu size={30}/>
           </div>
         <h1 className='text-2xl sm:text-3xl lg:text-4xl font-bold italic text-rose-600'>Foodie <span className=' non-italic text-black '>Zone</span></h1>  
-        <div className='hidden md:flexs space-x-2 text-lg p-1 border border-black rounded-full bg-gray-200'>   
+        <div className='hidden lg:flex  text-md p-1 border border-black rounded-full bg-gray-200'>   
           <p className='p-1'>Delivery</p>
           <p className='bg-blue-950 text-white rounded-full p-1'>Pickup</p>
         </div>
       </div>
-      <div className='rounded-full bg-gray-300 flex items-center px-2 w-[200px] sm:w-[400px] lg:w-[600px]'>
+      <div className='rounded-full bg-gray-300 flex items-center px-2 w-[200px] sm:w-[400px] lg:w-[500px]'>
         <IoSearchOutline size={25} />
         <input type="text" className="bg-gray-300 p-3 w-full rounded-full focus:outline-none placeholder:text-black text-black font-thin" placeholder=' Search foods' />
       </div>

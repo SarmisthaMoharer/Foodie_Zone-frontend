@@ -162,8 +162,8 @@ export const data = [
 
     
     ];
-    
-export const categories = [
+   
+    export const categories = [
       {
         id: 1,
         name: 'Fast Food',
@@ -182,14 +182,12 @@ export const categories = [
         image:
           'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/Wings_BrowseHome@3x.png',
       },
-      
       {
         id: 4,
         name: 'Indian',
         image:
           'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/Indian_BrowseHome@3x.png',
       },
-      
       {
         id: 5,
         name: 'Latest Deals',
@@ -214,4 +212,4 @@ export const categories = [
         image:
           'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/Placeholder_Plates@3x.png',
       },
-]
+    ];

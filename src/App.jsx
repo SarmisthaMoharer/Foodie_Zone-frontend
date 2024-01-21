@@ -16,6 +16,7 @@ function App() {
       <Cards />
       <Food />
       <Category />
+      
     </>
   )
 }
